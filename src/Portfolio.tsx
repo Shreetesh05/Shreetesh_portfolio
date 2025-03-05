@@ -1,28 +1,31 @@
 const PortfolioPage = () => {
   const projects = [
     {
-      title: "Robotics Project",
-      description:
-        "An autonomous robot built for inter-college robotics competitions.",
-      image: "/path-to-robotics-image.jpg",
-    },
-    {
       title: "Portfolio Website",
       description:
         "A personal portfolio website showcasing my projects and skills.",
-      image: "/path-to-portfolio-image.jpg",
+      image: "/images/portfolio.png",
+      href: "https://shreetesh-portfolio.vercel.app",
     },
     {
       title: "E-commerce Website",
       description:
         "A fully responsive e-commerce website with a modern design.",
-      image: "/path-to-ecommerce-image.jpg",
+      image: "/images/ecom.PNG",
     },
     {
-      title: "E-commerce Website",
+      title: "Sarathi Consultant Website",
       description:
-        "A fully responsive e-commerce website with a modern design.",
-      image: "/path-to-ecommerce-image.jpg",
+        "A fully responsive Consultant website with a modern design.",
+      image: "/images/sarathi.png",
+      href: "sarathi-six.vercel.app",
+    },
+    {
+      title: "Mount Royal Investment Website",
+      description:
+        "A fully responsive Consultant website with a modern design.",
+      image: "/images/mt-royal.png",
+      href: "mount-royal.vercel.app",
     },
   ];
 
@@ -47,13 +50,29 @@ const PortfolioPage = () => {
             />
             <h3 className="text-xl font-bold">{project.title}</h3>
             <p className="text-gray-400">{project.description}</p>
-            <button className="mt-4 bg-orange-500 text-black px-4 py-2 rounded hover:bg-orange-600">
-              View Project
-            </button>
+
+            {/* Conditional Button for External Links */}
+            {project.href ? (
+              <a
+                href={project.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 bg-orange-500 text-black px-4 py-2 rounded hover:bg-orange-600 transition"
+              >
+                View Project
+              </a>
+            ) : (
+              <button
+                className="mt-4 bg-orange-500 text-black px-4 py-2 rounded hover:bg-orange-600 transition"
+                disabled
+              >
+                No Link Available
+              </button>
+            )}
           </div>
         ))}
       </div>
-          </div>
+    </div>
   );
 };
 

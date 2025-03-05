@@ -16,11 +16,11 @@ const About: React.FC = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center  justify-center min-h-screen bg-black p-5">
         {/* Image Section */}
-        <div className="flex pr-2 justify-center">
+        <div className="flex pr-2 pb-2 justify-center">
           <img
-            src="/images/mero.jpeg"
+            src="/images/dunga.jpg"
             alt="Profile"
-            className="w-[700px] h-[700px] rounded-lg shadow-lg"
+            className="w-[600px] h-auto rounded-lg shadow-lg"
           />
         </div>
 
@@ -74,7 +74,7 @@ const About: React.FC = () => {
                   </div>
                   <div className="w-full bg-gray-800 rounded-full h-4">
                     <div
-                      className="bg-orange-500 h-4 rounded-full"
+                      className="bg-amber-500 h-4 rounded-full"
                       style={{ width: `${skill.percentage}%` }}
                     ></div>
                   </div>
