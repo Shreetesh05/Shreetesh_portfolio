@@ -76,10 +76,10 @@ const Home = () => {
             className="h-full lg:h-[500px] w-auto object-cover rounded-lg shadow-lg"
           />
         </div>
+        <About />
+        <PortfolioPage />
+        <Contact />
       </div>
-      <About />
-      <PortfolioPage />
-      <Contact />
     </div>
   );
 };

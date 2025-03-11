@@ -20,7 +20,7 @@ export function Contact() {
     e.preventDefault();
 
     const { firstName, lastName, email, subject, message } = formData;
-    const recipientEmail = "shreetesh032@"; // Replace with your email
+    const recipientEmail = "shreetesh032@gmail.com"; // Replace with your email
 
     const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(
       subject
