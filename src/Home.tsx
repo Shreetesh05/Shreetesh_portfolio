@@ -7,12 +7,13 @@ import { Contact } from "./Contact";
 const Home = () => {
   return (
     <div>
+      {/* Hero Section */}
       <div className="bg-black min-h-screen pl-12 flex flex-col-reverse lg:flex-row items-center px-6 md:px-16 py-10 md:py-20">
         {/* Left Section */}
         <div className="flex-1 text-center lg:text-left space-y-4 md:space-y-6">
           <p className="text-3xl md:text-4xl text-white font-bold">Hi, I am</p>
           <h1 className="animated-text">Shreetesh Sharma</h1>
-          <p className="text-2xl md:text-3xl  text-orange-400">
+          <p className="text-2xl md:text-3xl text-orange-400">
             Frontend Developer
           </p>
 
@@ -43,7 +44,7 @@ const Home = () => {
               <Linkedin className="w-8 h-8 text-orange-500 hover:text-orange-700 transition" />
             </a>
             <a
-              href="https://github.com/Shreetesh05?tab=overview&from=2025-03-01&to=2025-03-05"
+              href="https://github.com/Shreetesh05"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -61,7 +62,7 @@ const Home = () => {
               Hire me
             </Link>
             <a
-              href="images/mycv.pdf"
+              href="/images/mycv.pdf"
               download
               className="bg-orange-500 text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold hover:bg-orange-600 transition"
             >
@@ -69,6 +70,8 @@ const Home = () => {
             </a>
           </div>
         </div>
+
+        {/* Right Section */}
         <div className="flex-1 flex justify-center items-center">
           <img
             src="/images/mero.jpeg"
@@ -76,10 +79,12 @@ const Home = () => {
             className="h-full lg:h-[500px] w-auto object-cover rounded-lg shadow-lg"
           />
         </div>
-        <About />
-        <PortfolioPage />
-        <Contact />
       </div>
+
+      {/* Additional Sections */}
+      <About />
+      <PortfolioPage />
+      <Contact />
     </div>
   );
 };
