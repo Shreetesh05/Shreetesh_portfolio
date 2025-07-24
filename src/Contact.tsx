@@ -141,7 +141,7 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-orange-700">Call Me</h3>
                     <p className="text-orange-700">
-                      +977-9862410114, 9709066789
+                      +977-9862410114
                     </p>
                   </div>
                 </div>

@@ -27,6 +27,20 @@ const PortfolioPage = () => {
       image: "/images/mt-royal.png",
       href: "https://mount-royal.vercel.app",
     },
+    {
+      title: "Mazzako Trip",
+      description:
+        "Flight ticketing booking application .",
+      image: "/images/mazza.PNG",
+      href: "https://dev.mazzakotrip.com/",
+    },
+    {
+      title: "Link Asia  Tours",
+      description:
+        "Tour Booking Software.",
+      image: "/images/linkasia.png",
+      href: "https://linkasia.vercel.app/",
+    },
   ];
 
   return (

@@ -2,10 +2,12 @@ import React from "react";
 
 const skills = [
   { name: "React", percentage: 85 },
+   { name: "Techniacal Analysis", percentage: 95 },
+      { name: "Fundamental Analysis", percentage: 85 },
   { name: "JavaScript", percentage: 90 },
   { name: "HTML & CSS", percentage: 95 },
-  { name: "Node.js", percentage: 80 },
   { name: "Python", percentage: 75 },
+  {name:"Sabre",percentage:90},
 ];
 
 const About: React.FC = () => {
@@ -33,6 +35,8 @@ const About: React.FC = () => {
             <ul className="list-disc pl-5 space-y-2 text-sm md:text-base">
               <li>Technical Analyst: Technical, Fundamentals, Candlestick</li>
               <li>Web Development: React, HTML, CSS</li>
+              <li>GDS: Sabre Biginners/Advance </li>
+              <li>Tours: National/International</li>
               <li>Robotics: Arduino, Sensor Integration</li>
               <li>Problem-Solving and Team Collaboration</li>
             </ul>
@@ -41,16 +45,28 @@ const About: React.FC = () => {
           <div className="bg-orange-600 p-6 rounded-lg shadow-md">
             <h2 className="text-xl font-bold mb-4">Experience</h2>
             <p>
-              <strong>Robotics Intern</strong> - NIC Robotics Club
+              <strong>Robotics </strong> - NIC Robotics Club
             </p>
             <p className="text-black text-sm mb-4">
               Developed autonomous robots for inter-college competitions.
             </p>
             <p>
-              <strong>Web Development Intern</strong> - Aava Tech
+              <strong>Web Development Engineer</strong> - Aava Tech
             </p>
-            <p className="text-black text-sm">
+            <p className="text-black text-sm pt-2">
               Built responsive websites and optimized user experiences.
+            </p>
+            <p>
+              <strong>Tickiting Officer</strong> - Link Asia Tours 
+            </p>
+            <p className="text-black text-sm pt-2">
+             Have a knowledge about GDS (sabre). International Ticket booking 
+            </p>
+             <p>
+              <strong>Tour Operatot</strong> - Link Asia Tours 
+            </p>
+            <p className="text-black text-sm pt-2">
+           Best tour packages guding.
             </p>
           </div>
           {/* Education */}

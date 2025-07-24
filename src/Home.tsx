@@ -14,11 +14,14 @@ const Home = () => {
           <p className="text-3xl md:text-4xl text-white font-bold">Hi, I am</p>
           <h1 className="animated-text">Shreetesh Sharma</h1>
           <p className="text-2xl md:text-3xl text-orange-400">
-            Frontend Developer
+            <li>Frontend Developer</li>
+             <li>Technical Analyst</li>
+            <li>Ticketing Officer</li>
+            <li>Tour Operator</li>
+           
           </p>
-
           {/* Social Icons */}
-          <div className="flex justify-center lg:justify-start gap-4 md:gap-6 mt-6">
+          <div className="flex justify-center lg:justify-start gap-4 md:gap-6 pt-4 pb-4 mt-6">
             <a
               href="https://www.facebook.com/profile.php?id=100085717322611"
               target="_blank"
