@@ -12,7 +12,7 @@ const skills = [
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="bg-black dark:bg-gray-900 py-12 px-4">
+    <section id="about" className="bg-black dark:bg-gray-900 py-20 px-4">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-orange-700 dark:text-white mb-8">
           About Me

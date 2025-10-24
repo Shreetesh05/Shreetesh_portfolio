@@ -33,10 +33,10 @@ export function Contact() {
 
   return (
     <div className="w-full">
-      <h1 className="text-orange-700 bg-black text-center pt-8 font-bold text-5xl">
+      <h1 className="text-orange-700 bg-black text-center pb-8 py-20 font-bold text-5xl">
         Contact Me
       </h1>
-      <div className="bg-black py-20 px-4 sm:px-6 lg:px-8">
+      <div className="bg-black pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="bg-orange-600 py-10 px-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold text-black mb-8">

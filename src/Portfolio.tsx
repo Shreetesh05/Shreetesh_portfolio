@@ -32,7 +32,7 @@ const PortfolioPage = () => {
       description:
         "Flight ticketing booking application .",
       image: "/images/mazza.PNG",
-      href: "https://dev.mazzakotrip.com/",
+      href: "https://mazzakotrip.com/",
     },
     {
       title: "Link Asia  Tours",
@@ -44,7 +44,7 @@ const PortfolioPage = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-black text-orange-500 p-5">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black py-20 text-orange-500 p-5">
       {/* Header */}
       <header className="text-center mb-10">
         <h1 className="text-3xl md:text-4xl font-bold">My Portfolio</h1>
