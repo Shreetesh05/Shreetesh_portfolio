@@ -110,7 +110,7 @@ const PortfolioLanding = () => {
                 <div className="absolute inset-0 border-4 border-orange-500/30 rounded-full animate-spin-slow"></div>
                 <div className="absolute inset-8 border-4 border-amber-400/30 rounded-full animate-spin-slow-reverse"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                  src="/images/mero.jpeg"
                   alt="Shreetesh Sharma"
                   className="relative z-10 w-full h-full object-cover rounded-full border-4 border-gray-800 shadow-2xl"
                 />
